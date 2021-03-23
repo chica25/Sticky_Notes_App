@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 body {
@@ -33,7 +33,9 @@ h1 {
 
 .container-3 {
     /* display: none; */
-    position: absolute; top: 26%; left: 40%;
+    position: absolute;
+    top: 26%;
+    left: 40%;
 }
 
 textarea {
@@ -45,14 +47,14 @@ textarea {
     padding: 40px 25px 25px 25px;
 }
 
-.fas fa-check {
+.fa-check {
     color: gray;
     position: absolute;
     right: 17%;
     top: 4%;
 }
 
-.fas fa-times {
+.fa-times {
     color: gray;
     position: absolute; right: 5%; top: 4%;
 }
