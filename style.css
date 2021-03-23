@@ -1,10 +1,59 @@
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0;
-    margin: 0;
+    margin-left: 10px;
 }
-/* 
-body {
 
-} */
+body {
+    background-color: rgb(230, 230, 221);
+    font-family: 'Shadows Into Light Two', cursive, 'helvetica';
+    font-size: 24px;
+    
+} 
+
+h1 {
+    font-family: helvetica;
+}
+
+.parent-container {
+    width: 95%;
+    margin: auto;
+}
+
+.container-1 {
+    margin-left: 5%;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.container-3 {
+    /* display: none; */
+    position: absolute; top: 26%; left: 40%;
+}
+
+textarea {
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.35);
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px;
+}
+
+.fas fa-check {
+    color: gray;
+    position: absolute;
+    right: 17%;
+    top: 4%;
+}
+
+.fas fa-times {
+    color: gray;
+    position: absolute; right: 5%; top: 4%;
+}
 
